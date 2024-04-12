@@ -1,4 +1,4 @@
-# React AWS CodePipeline Setup
+# React-App AWS CodePipeline Setup
 
 This repository contains a guide and configuration files to set up a continuous deployment pipeline for a React application using AWS CodePipeline.
 
@@ -12,11 +12,15 @@ This repository contains a guide and configuration files to set up a continuous 
 ### Step 2: Push Code to GitHub
 
 - Push your project to GitHub repository.
+- https://github.com/osusara/react-101
 
 ### Step 3: Create S3 Bucket
 
 - Create an AWS S3 Bucket to host the React JS build.
 - Configure bucket properties for static web hosting and permissions for public access.
+```bash
+git clone 
+```
 
 ### Step 4: Create AWS CodePipeline
 
@@ -27,6 +31,10 @@ This repository contains a guide and configuration files to set up a continuous 
 ### Step 5: Create Source Provider
 
 - Select GitHub as the source provider.
+- You can Clone and push below repo to your project repository for React-App
+```bash
+git clone https://github.com/osusara/react-101.git
+```
 - Connect to GitHub and choose the repository and branch.
 - Enable GitHub webhooks for change detection.
 
