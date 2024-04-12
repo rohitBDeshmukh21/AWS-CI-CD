@@ -18,9 +18,6 @@ This repository contains a guide and configuration files to set up a continuous 
 
 - Create an AWS S3 Bucket to host the React JS build.
 - Configure bucket properties for static web hosting and permissions for public access.
-```bash
-git clone 
-```
 
 ### Step 4: Create AWS CodePipeline
 
